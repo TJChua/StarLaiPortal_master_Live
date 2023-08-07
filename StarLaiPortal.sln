@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarLaiPortal.Module", "StarLaiPortal.Module\StarLaiPortal.Module.csproj", "{F13867AA-7586-4E00-BAE2-98A55CD72FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarLaiPortal.Module.Web", "StarLaiPortal.Module.Web\StarLaiPortal.Module.Web.csproj", "{2F522BE6-FD01-4D46-A0D5-A18925E807A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarLaiPortal.Web", "StarLaiPortal.Web\StarLaiPortal.Web.csproj", "{BA885687-8C37-4061-850D-AABF1E544219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarLaiPortal.Module.Win", "StarLaiPortal.Module.Win\StarLaiPortal.Module.Win.csproj", "{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarLaiPortal.Win", "StarLaiPortal.Win\StarLaiPortal.Win.csproj", "{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarLaiPortal.WebApi", "StarLaiPortal.WebApi\StarLaiPortal.WebApi.csproj", "{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalIntegration", "PortalIntegration\PortalIntegration.csproj", "{97407731-9302-4EDF-8308-AABD51056AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13867AA-7586-4E00-BAE2-98A55CD72FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F522BE6-FD01-4D46-A0D5-A18925E807A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA885687-8C37-4061-850D-AABF1E544219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A46A9F-547A-4BD3-91A3-E4C96AD74418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0532C7A-C509-4FA0-B4A9-64BDDC4F661A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52FC0CD-0315-447C-9E3D-DFA6FEB3ED77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.EasyTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.EasyTest|Any CPU.Build.0 = Debug|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97407731-9302-4EDF-8308-AABD51056AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90B3EB5E-10B2-4EED-820B-870B85F9872F}
+	EndGlobalSection
+EndGlobal

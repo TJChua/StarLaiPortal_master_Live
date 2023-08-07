@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="PurchaseOrders_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Auto2d27c9fd-b11f-4652-aa10-d1cc256179a2">
+              <LayoutGroup Id="Autoa3d17fc4-6b55-4043-a9c7-b09e68dbce59">
+                <LayoutGroup Id="PurchaseOrders_col1">
+                  <LayoutItem Id="Customer" ViewItem="Customer" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ItemInquiry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Autobbf64865-516a-4878-aac6-eee1a0c2219b">
+            <LayoutItem Id="ViewSales" ViewItem="ViewSales" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

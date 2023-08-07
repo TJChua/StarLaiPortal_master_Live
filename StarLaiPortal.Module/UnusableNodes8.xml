@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <ActionToContainerMapping Id="ActionToContainerMapping">
+      <ActionContainer Id="ListView">
+        <ActionLink ActionId="PreviewSO" Index="6" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Sales Order">
+        <Items Id="Items">
+          <Item Id="ItemInquiry_ListView" Index="0" />
+          <Item Id="vwOpenSO_ListView" Index="1" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="ItemInquiry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Autobbf64865-516a-4878-aac6-eee1a0c2219b">
+            <LayoutItem Id="ViewSales" ViewItem="ViewSales" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

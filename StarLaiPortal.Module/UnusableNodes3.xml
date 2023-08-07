@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SalesOrder_DetailView">
+      <Items Id="Items">
+        <ActionContainerViewItem Id="Button Sales" Caption="Button Sales" ActionContainer="ListView" Orientation="Vertical" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="37.5234521575985" Direction="Horizontal">
+            <LayoutGroup Id="SalesOrder_col1" ShowCaption="False" Index="0" RelativeSize="41.143654114365411">
+              <LayoutItem Id="Cart" ViewItem="Cart" Index="0" RelativeSize="18" />
+              <LayoutItem Id="DocNum" ViewItem="DocNum" Index="1" RelativeSize="13" />
+              <LayoutItem Id="Customer" ViewItem="Customer" Index="2" RelativeSize="13" />
+              <LayoutItem Id="CustomerName" ViewItem="CustomerName" Index="3" RelativeSize="13" />
+              <LayoutItem Id="PostingDate" ViewItem="PostingDate" Index="4" RelativeSize="13" />
+              <LayoutItem Id="DeliveryDate" ViewItem="DeliveryDate" Index="5" RelativeSize="13" />
+              <LayoutItem Id="Balance" ViewItem="Balance" Index="6" RelativeSize="17" />
+            </LayoutGroup>
+            <LayoutGroup Id="SalesOrder_col2" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="58.856345885634589">
+              <LayoutGroup Id="Autof00a2ee1-8c99-466b-b0c1-4939a69287f0" ShowCaption="False" Caption="Autof00a2ee1-8c99-466b-b0c1-4939a69287f0(12)" Index="0" RelativeSize="69.66824644549763">
+                <LayoutItem Id="ContactPerson" ViewItem="ContactPerson" Index="0" RelativeSize="18" />
+                <LayoutItem Id="ContactNo" ViewItem="ContactNo" Index="1" RelativeSize="13" />
+                <LayoutItem Id="Transporter" ViewItem="Transporter" Index="2" RelativeSize="13" />
+                <LayoutItem Id="Series" ViewItem="Series" Index="3" RelativeSize="13" />
+                <LayoutItem Id="Priority" ViewItem="Priority" Index="4" RelativeSize="13" />
+                <LayoutItem Id="Status" ViewItem="Status" Index="5" RelativeSize="30" />
+              </LayoutGroup>
+              <LayoutItem Id="Button Sales" ViewItem="Button Sales" Index="1" RelativeSize="30.33175355450237" />
+            </LayoutGroup>
+            <LayoutGroup Id="SalesOrder" RelativeSize="100" Removed="True">
+              <LayoutGroup Id="SalesOrder_col1" RelativeSize="33.382137628111273">
+                <LayoutItem Id="DeliveryDate" ViewItem="DeliveryDate" Index="4" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="Balance" ViewItem="Balance" Index="5" RelativeSize="20.454545454545453" />
+                <LayoutItem Id="ContactNo" RelativeSize="11.403508771929825" Index="6" Removed="True" />
+                <LayoutItem Id="ContactPerson" RelativeSize="17.821782178217823" Index="6" Removed="True" />
+                <LayoutItem Id="Cart" RelativeSize="20.454545454545453" />
+                <LayoutItem Id="Customer" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="CustomerName" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="DocNum" RelativeSize="14.772727272727273" />
+                <LayoutItem Id="Transporter" RelativeSize="12.871287128712872" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="SalesOrder_col2" RelativeSize="66.61786237188872" Direction="Horizontal" Caption="SalesOrder_col2">
+                <LayoutGroup Id="Autof00a2ee1-8c99-466b-b0c1-4939a69287f0" ShowCaption="False" Caption="" Index="0" RelativeSize="49.450549450549453">
+                  <LayoutItem Id="ContactPerson" ViewItem="ContactPerson" Index="0" RelativeSize="20.454545454545453" />
+                  <LayoutItem Id="ContactNo" ViewItem="ContactNo" Index="1" RelativeSize="14.772727272727273" />
+                  <LayoutItem Id="Transporter" ViewItem="Transporter" Index="2" RelativeSize="14.772727272727273" />
+                  <LayoutItem Id="Series" ViewItem="Series" Index="3" RelativeSize="14.772727272727273" />
+                  <LayoutItem Id="Priority" ViewItem="Priority" Index="4" RelativeSize="14.772727272727273" />
+                  <LayoutItem Id="Status" ViewItem="Status" Index="5" RelativeSize="20.454545454545453" />
+                </LayoutGroup>
+                <LayoutItem Id="Balance" RelativeSize="14.772727272727273" Index="1" Removed="True" />
+                <LayoutItem Id="Button Sales" ViewItem="Button Sales" Index="1" RelativeSize="50.549450549450547" />
+                <LayoutItem Id="Series" ViewItem="Series" Index="1" RelativeSize="12.871287128712872" Removed="True" />
+                <LayoutItem Id="Priority" ViewItem="Priority" Index="2" RelativeSize="12.871287128712872" Removed="True" />
+                <LayoutItem Id="DeliveryDate" ViewItem="DeliveryDate" Index="3" RelativeSize="12.871287128712872" Removed="True" />
+                <LayoutItem Id="Status" ViewItem="Status" Index="4" RelativeSize="43.564356435643568" Removed="True" />
+                <LayoutItem Id="Total" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="62.4765478424015">
+            <LayoutGroup Id="SalesOrderDetails" RelativeSize="100" Caption="Items">
+              <LayoutItem Id="SalesOrderDetails" RelativeSize="84.452296819787989" />
+              <LayoutGroup Id="Auto24e91291-b6d6-48f2-be82-d4547c5236de" ShowCaption="False" Caption="Auto24e91291-b6d6-48f2-be82-d4547c5236de(23)" Direction="Horizontal" Index="1" RelativeSize="15.547703180212014">
+                <LayoutItem Id="Item1" Index="0" RelativeSize="49.927641099855279" />
+                <LayoutItem Id="Total" ViewItem="Total" Index="1" RelativeSize="50.072358900144721" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SalesOrderDocStatus" RelativeSize="100">
+              <LayoutItem Id="SalesOrderDocStatus" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ItemInquiry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Autobbf64865-516a-4878-aac6-eee1a0c2219b">
+            <LayoutItem Id="ViewSales" ViewItem="ViewSales" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="SalesOrderDetails_ListView" Removed="True" />
+          <Item Id="SalesOrderDocStatus_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Sales Order">
+        <Items Id="Items">
+          <Item Id="SalesOrder_ListView" Index="2" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

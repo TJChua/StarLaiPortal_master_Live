@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="SalesReturnRequests_ListView_Approval">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ETD" PropertyName="ETD" Index="5" />
+        <ColumnInfo Id="SupplierName" PropertyName="SupplierName" Index="2" />
+        <ColumnInfo Id="Supplier" PropertyName="Supplier" Index="1" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SalesReturnRequests_DetailView_Approval">
+      <Items Id="Items">
+        <PropertyEditor Id="SupplierName" PropertyName="SupplierName" />
+        <PropertyEditor Id="Supplier" PropertyName="Supplier" />
+        <PropertyEditor Id="ETD" PropertyName="ETD" />
+      </Items>
+    </DetailView>
+    <DetailView Id="SalesReturnRequests_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SalesReturnRequests_col2">
+              <LayoutGroup Id="Auto68161cc5-b83e-48bd-9400-10ceeea9c221">
+                <LayoutItem Id="ETD" ViewItem="ETD" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SalesReturnRequests_col1">
+              <LayoutItem Id="SupplierName" ViewItem="SupplierName" />
+              <LayoutItem Id="Supplier" ViewItem="Supplier" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ItemInquiry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Autobbf64865-516a-4878-aac6-eee1a0c2219b">
+            <LayoutItem Id="ViewSales" ViewItem="ViewSales" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SalesReturns_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SalesReturns_col2">
+              <LayoutItem Id="ETD" ViewItem="ETD" />
+            </LayoutGroup>
+            <LayoutGroup Id="SalesReturns_col1">
+              <LayoutItem Id="SupplierName" ViewItem="SupplierName" />
+              <LayoutItem Id="Supplier" ViewItem="Supplier" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

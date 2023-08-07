@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Sales Order">
+        <Items>
+          <Item Id="SalesOrder_ListView" Index="0" />
+          <Item Id="SalesOrderCollection_ListView" Index="1" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="22.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <ViewItems>
+    <PropertyEditor Name="PropertyEditors">
+      <RegisteredPropertyEditor PropertyType="System.Decimal" DefaultEditMask="C" />
+    </PropertyEditor>
+  </ViewItems>
+  <Views>
+    <ListView Id="GRN_GRNDetails_ListView" InlineEditMode="Inline" />
+    <ListView Id="PurchaseOrders_PurchaseOrderDetails_ListView" InlineEditMode="Inline" />
+    <ListView Id="PurchaseReturnRequests_PurchaseReturnRequestDetails_ListView" InlineEditMode="Inline" />
+    <DetailView Id="SalesQuotation_DetailView">
+      <Items>
+        <PropertyEditor Id="Customer" View="" />
+      </Items>
+    </DetailView>
+    <ListView Id="SalesQuotation_SalesQuotationDetails_ListView" InlineEditMode="Inline" />
+    <DetailView Id="SalesReturnRequests_DetailView">
+      <Items>
+        <PropertyEditor Id="Customer" LookupEditorMode="AllItems" />
+        <PropertyEditor Id="Transporter" LookupEditorMode="AllItems" />
+      </Items>
+    </DetailView>
+    <ListView Id="SalesReturnRequests_SalesReturnRequestDetails_ListView" InlineEditMode="Inline" />
+    <ListView Id="StockAdjustmentRequests_StockAdjustmentReqDetails_ListView" InlineEditMode="Inline" />
+    <ListView Id="WarehouseTransferReq_WarehouseTransferReqDetails_ListView" InlineEditMode="Inline" />
+  </Views>
+</Application>

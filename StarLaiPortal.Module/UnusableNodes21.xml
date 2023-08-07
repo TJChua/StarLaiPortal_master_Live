@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Purchase Return Request" Index="13">
+        <Items Id="Items">
+          <Item Id="PurchaseReturnRequests_ListView" Index="0" />
+          <Item Id="Purchase Return Request Approval" Caption="Purchase Return Request - Approval" Index="1" ViewId="PurchaseReturnRequests_ListView_Approval" />
+        </Items>
+      </Item>
+      <Item Id="Sales Return Request" Index="14">
+        <Items Id="Items">
+          <Item Id="SalesReturnRequests_ListView" Index="0" />
+          <Item Id="Sales Return Request - Approval" Caption="Sales Return Request - Approval" Index="1" ViewId="SalesReturnRequests_ListView_Approval" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="ItemInquiry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Autobbf64865-516a-4878-aac6-eee1a0c2219b">
+            <LayoutItem Id="ViewSales" ViewItem="ViewSales" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
