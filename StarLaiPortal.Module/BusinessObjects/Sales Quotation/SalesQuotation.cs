@@ -857,7 +857,7 @@ namespace StarLaiPortal.Module.BusinessObjects.Sales_Quotation
         {
             get
             {
-                if (this.Transporter.U_Type == "OC" || this.Transporter.U_Type == "OS")
+                if (this.Transporter.U_Type != "OC" || this.Transporter.U_Type == "OS")
                 {
                     if (this.BillingAddressfield == null || this.ShippingAddressfield == null)
                     {
