@@ -244,7 +244,7 @@ namespace StarLaiPortal.Module.BusinessObjects.Purchase_Return
         [RuleRequiredField(DefaultContexts.Save)]
         [XafDisplayName("Bin")]
         [LookupEditorMode(LookupEditorMode.AllItems)]
-        [DataSourceCriteria("Warehouse = '@this.FromWarehouse.WarehouseCode'")]
+        [DataSourceCriteria("Warehouse = '@this.Warehouse.WarehouseCode'")]
         [Index(14), VisibleInListView(true), VisibleInDetailView(true), VisibleInLookupListView(true)]
         public vwBin Bin
         {

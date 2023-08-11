@@ -438,7 +438,7 @@ namespace StarLaiPortal.Module.BusinessObjects.Purchase_Return
         // Start ver 1.0.7
         private bool _GRPOCorrection;
         [XafDisplayName("GRPO Correction")]
-        [Appearance("GRPOCorrection", Enabled = false)]
+        //[Appearance("GRPOCorrection", Enabled = false)]
         [Index(35), VisibleInDetailView(true), VisibleInListView(true), VisibleInLookupListView(false)]
         public bool GRPOCorrection
         {

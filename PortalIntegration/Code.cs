@@ -1777,11 +1777,14 @@ namespace PortalIntegration
                             }
 
                             // Start ver 1.0.7
-                            if (dtl.GRNBaseDoc != null)
+                            if (oTargetDoc.GRPOCorrection == true)
                             {
-                                oDoc.Lines.BaseType = 20;
-                                oDoc.Lines.BaseEntry = int.Parse(dtl.GRNBaseDoc);
-                                oDoc.Lines.BaseLine = int.Parse(dtl.GRNBaseId);
+                                if (dtl.GRNBaseDoc != null)
+                                {
+                                    oDoc.Lines.BaseType = 20;
+                                    oDoc.Lines.BaseEntry = int.Parse(dtl.GRNBaseDoc);
+                                    oDoc.Lines.BaseLine = int.Parse(dtl.GRNBaseId);
+                                }
                             }
                             // End ver 1.0.7
                         //}

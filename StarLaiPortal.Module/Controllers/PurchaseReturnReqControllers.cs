@@ -309,7 +309,7 @@ namespace StarLaiPortal.Module.Controllers
                         {
                             prr.Reference = dtl.VendorRef;
                             // Start ver 0.1
-                            prr.GRPOCorrection = true;
+                            //prr.GRPOCorrection = true;
                             // End ver 0.1
                             PurchaseReturnRequestDetails newprritem = ObjectSpace.CreateObject<PurchaseReturnRequestDetails>();
 
