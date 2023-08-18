@@ -10,7 +10,8 @@
     <title>Main Page</title>
     <meta http-equiv="Expires" content="0" />
 </head>
-<body class="VerticalTemplate">
+<body class="VerticalTemplate" style ="background-image: url('../Images/Watermark_Standard.png'); background-repeat: no-repeat; background-size: 100%; 
+background-blend-mode: screen;">
     <style>
         .Caption
         {
